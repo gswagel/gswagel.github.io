@@ -87,8 +87,8 @@ author:
 publication_category:
   published:
     title: 'Publications'
-  working_papers:
-    title: 'Working Papers &amp; Works in Progress'
+  works_in_progress:
+    title: 'Works in Progress'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -224,8 +224,7 @@ collections:
     output: true
     permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
+    output: false
   portfolio:
     output: true
     permalink: /:collection/:path/

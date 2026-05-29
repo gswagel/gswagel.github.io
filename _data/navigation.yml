@@ -3,8 +3,8 @@
 # prevent the page from being included in the site.
 
 main:
-  - title: "Publications"
-    url: /publications/
+  - title: "Research"
+    url: /research/
 
   - title: "CV"
     url: /cv/
