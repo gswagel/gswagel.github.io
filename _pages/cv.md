@@ -28,7 +28,7 @@ at the very bottom of the file.
 </ul>
 
 <h2 id="research-interests">Research Interests</h2><hr />
-<p>Labor, Health, Industrial Organization</p>
+<p>Health, Public</p>
 
 {% include publication-list.html %}
 
