@@ -4,6 +4,6 @@ collection: publications
 category: works_in_progress
 permalink: /publication/social-program-take-up-snap
 excerpt: ""
-date: 2025-06-01
+date: 2025-04-01
 venue: 'With Kate Ho and Eduardo Morales'
 ---

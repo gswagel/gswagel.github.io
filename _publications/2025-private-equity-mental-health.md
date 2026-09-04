@@ -4,6 +4,6 @@ collection: publications
 category: works_in_progress
 permalink: /publication/private-equity-residential-mental-health
 excerpt: ""
-date: 2025-04-01
+date: 2025-05-01
 venue: 'With Janet Currie'
 ---

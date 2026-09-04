@@ -12,7 +12,7 @@ site_theme               : "default" # The available themes options are "default
 title                    : "Gabriel Swagel"
 title_separator          : "-"
 name                     : &name "Gabriel Swagel"
-description              : &description "Gabriel Swagel — PhD candidate in Economics at Princeton University. Research in labor and industrial organization, with a focus on health."
+description              : &description "Gabriel Swagel — PhD candidate in Economics at Princeton University. Research in health and public economics."
 url                      : https://gswagel.github.io # The base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "gswagel/gswagel.github.io"
