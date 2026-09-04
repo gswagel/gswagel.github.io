@@ -7,9 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate in Economics at Princeton University. My research interests are in
-labor economics and industrial organization, with a current focus on health
-applications.
+I am a PhD candidate in Economics at Princeton University. My research interests are in health and public economics.
 
 You can read more about my research on the [research](/research/) page, and reach out by
 [email](mailto:gswagel@princeton.edu).
