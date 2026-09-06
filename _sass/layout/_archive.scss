@@ -66,6 +66,47 @@
   }
 }
 
+.abstract-toggle {
+  margin: 0.25em 0 0;
+
+  > summary {
+    display: inline-block;
+    cursor: pointer;
+    font-family: $sans-serif-narrow;
+    font-size: $type-size-6;
+    color: var(--global-link-color);
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &::before {
+      content: "▸"; /* right-pointing triangle */
+      display: inline-block;
+      margin-right: 0.4em;
+      transition: transform 0.15s ease;
+    }
+
+    &:hover {
+      color: var(--global-link-color-hover);
+    }
+
+    &:focus-visible {
+      outline: 1px dotted var(--global-link-color);
+      outline-offset: 2px;
+    }
+  }
+
+  &[open] > summary::before {
+    transform: rotate(90deg);
+  }
+
+  .archive__item-excerpt {
+    margin-top: 0.35em;
+  }
+}
+
 .archive__item-teaser {
   border-radius: $border-radius;
   overflow: hidden;

@@ -2,6 +2,8 @@
 Renders site.publications grouped under the headings defined in
 site.publication_category (see _config.yml). Titles are plain text (no
 per-paper pages); an accepted paper with a `paperurl` gets a [PDF] link.
+Abstracts are collapsed behind a native <details> toggle (styled in
+_sass/layout/_archive.scss under .abstract-toggle).
 Shared by _pages/research.html and _pages/cv.md so both stay in sync.
 
 NOTE: emitted HTML is kept flush-left (no indentation) on purpose — when this
@@ -20,7 +22,7 @@ code blocks by kramdown.
 <article class="archive__item">
 <h3 class="archive__item-title" style="margin-bottom: 0.25em;">{{ post.title }}{% if post.paperurl %} <a href="{{ post.paperurl }}">[PDF]</a>{% endif %}</h3>
 {% if post.venue != blank %}<p class="archive__item-venue">{{ post.venue | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
-{% if post.excerpt != blank %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p>{% endif %}
+{% if post.excerpt != blank %}<details class="abstract-toggle"><summary>Abstract</summary><p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | remove: "<p>" | remove: "</p>" }}</p></details>{% endif %}
 </article>
 </div>
 {% endfor %}
